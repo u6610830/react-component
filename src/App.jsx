@@ -1,6 +1,6 @@
 import './App.css' 
 
-import Greetings from './components/Greetings' 
+import Greetings from '/Users/earth/hello-react/React-Component/src/Greetings.jsx' 
 
 import User from './components/User' 
 
