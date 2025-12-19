@@ -1,4 +1,4 @@
-import "../App.css" 
+import "./App.css" 
 
 function Greetings() { 
 
@@ -8,7 +8,7 @@ function Greetings() {
 
    <h1>Hello, React!</h1> 
 
- <p>Voramet Borvornsirisan</p> 
+ <p></p> 
 
 </div> 
 

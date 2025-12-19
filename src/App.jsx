@@ -1,21 +1,14 @@
-import './App.css' 
+import "./App.css";
+import Greetings from "./Greetings.jsx";
+import User from "./User.jsx";
 
-import Greetings from '/Users/earth/hello-react/React-Component/src/Greetings.jsx' 
+function App() {
+  return (
+    <div className="card">
+      <Greetings />
+      <User name="Voramet Borvornsirisan" />
+    </div>
+  );
+}
 
-import User from './components/User' 
-
-function App() { 
-
-  return ( 
-
-    <div className="card"> 
-
-     <Greetings/> 
-
-    </div> 
-
-  ) 
-
-} 
-
-export default App 
+export default App;
